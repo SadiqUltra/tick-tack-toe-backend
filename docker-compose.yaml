@@ -16,9 +16,8 @@ services:
     restart: always
     environment:
       HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:postgrespassword@postgres:5432/postgres
-#      Uncomment the line bellow
+#      Change 21 number line
 #      HASURA_GRAPHQL_ENABLE_CONSOLE: "false" # Secured
-#      comment the line bellow
       HASURA_GRAPHQL_ENABLE_CONSOLE: "true" # console enabled
       HASURA_GRAPHQL_ENABLED_LOG_TYPES: startup, http-log, webhook-log, websocket-log, query-log
       HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
