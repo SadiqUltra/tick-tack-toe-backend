@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "tables": [
+    {
+      "table": {
+        "schema": "public",
+        "name": "step"
+      },
+      "insert_permissions": [
+        {
+          "role": "anonymous",
+          "permission": {
+            "check": {},
+            "columns": [
+              "key",
+              "xo",
+              "c",
+              "id",
+              "r",
+              "step_no",
+              "message",
+              "timestamp"
+            ]
+          }
+        }
+      ],
+      "select_permissions": [
+        {
+          "role": "anonymous",
+          "permission": {
+            "columns": [
+              "c",
+              "id",
+              "message",
+              "r",
+              "step_no",
+              "timestamp",
+              "xo"
+            ],
+            "filter": {}
+          }
+        }
+      ]
+    }
+  ]
+}
