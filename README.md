@@ -10,14 +10,6 @@ Run those command bellow
 Go to hasura console [http://localhost:8080/console/settings/metadata-actions](http://localhost:8080/console/settings/metadata-actions)
 then import the [metadata.json](metadata.json) file
 
-From hasura console ([http://localhost:8080/console/data/schema/public/tables/step/permissions](http://localhost:8080/console/data/schema/public/tables/step/permissions))
-Change permissions of insert and select of anonymous role according to the two image bellow
-[![insert](images/insert.png)](images/insert.png)
-
-[![select](images/select.png)](images/select.png)
-
-
-
 Then edit [docker-compose.yaml](docker-compose.yaml)
 Change 21 number line to 
 
